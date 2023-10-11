@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  /*Tipografia tamaño*/
+  --blob:32px;
+  --itemsMediun:16px;
+  --paragraphSemibold:20px;
+
+  /*Colores*/
+  --Darkblue:#000000;
+  --Gray20:#3e3c3c;
+  --violet:#9ba4ed;
+  --Gray50:#5221E6;
+  --fill:#8EFF8B;
+  --StrokeSlid:#5ed75a;
+
+  /*Fonts */
+  --Fira: 'Fira Sans', sans-serif;
+  --Lato: 'Lato', sans-serif;
+  --Lenxend: 'Lexend Deca', sans-serif;
+  --Open: 'Open Sans', sans-serif;
+  --Poppins: 'Poppins', sans-serif;
+  --Roboto: 'Roboto Condensed', sans-serif;
+  font-family: var(--Fira);
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    background: url("./assets/backgroundheader.png");
+    justify-content: center;
+    align-items: center;
+  }
+  .list{
+    padding: 10rem;
+  }
+  .residentListm{
+    background: url("./assets/backgroundpage.png");
+  }
+  .listacart{
+   background:black ;
+   opacity: 0.5;
+  }
+  @media (max-width: 600px) {
+    /* … */
+    .mobil{
+      display: none;
+    }
+    .logomobil{
+      position: absolute;
+      width: 400px;
+    }
+  }
+  
