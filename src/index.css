@@ -55,5 +55,8 @@
       position: absolute;
       width: 400px;
     }
+    .md{
+      display:none;
+    }
   }
   
