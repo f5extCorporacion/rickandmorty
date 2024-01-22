@@ -32,7 +32,7 @@ const Location = ({location , setRlocation}) => {
             <button type='submit' className='flex gap-2 bg-green-500 p-2' >Search<IconSearch/> </button>
         </form><br /><br />
 
-          <section className='md flex flex-col gap-10 justify-center justify-center border border-green-300  p-4 mobil shidden md:block'>
+          <section className='flex flex-col gap-10 justify-center justify-center border border-green-300  p-4 mobil shidden md:hidden'>
               <h3 className='flex justify-center justify-center color-green-500 text-green-500 '> !Wellcome to {location?.name} ¡</h3>
               <ul className='flex gap-20 text-gray-400 p-30 '>
                 <li>Type: {location?.type}</li>
